@@ -5,37 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">    
     <title>Slot Machines</title>
-    <link rel="icon" type="image/x-icon" href="images/Cherry.png" />
+    <link rel="icon" type="image/x-icon" href="images/red-cherry.png" />    
 </head>
 
 <body style="margin: 0; padding: 0;">
 
     <div id="container" style="width: 640px; height: 480px; margin: 0 auto; position: relative;">
         <div id="win" style="position: fixed; z-index: 4; width: 50%; text-align: center; margin-top: 65px; display: none;">
-            <img src="images/Win.png" width="200" height="40" />
+            <img src="images/win.png" width="200" height="40" />
         </div>
         <!-- First column-->
-        <div id="item1" style="width: 100px; height: 87px; position: absolute; left: 140px; top: 75px; z-index: 2;"><img src="images/Banana.png" width="100" height="87" /></div>
-        <div id="item2" style="width: 100px; height: 87px; position: absolute; left: 140px; top: 175px; z-index: 2;"><img src="images/Blackberry.png" width="100" height="87" /></div>
-        <div id="item3" style="width: 100px; height: 87px; position: absolute; left: 140px; top: 275px; z-index: 2;"><img src="images/Cherry.png" width="100" height="87" /></div>
+        <div id="item1" style="width: 100px; height: 87px; position: absolute; left: 140px; top: 75px; z-index: 2;"><img src="images/banana.png" width="100" height="87" /></div>
+        <div id="item2" style="width: 100px; height: 87px; position: absolute; left: 140px; top: 175px; z-index: 2;"><img src="images/blackberry.png" width="100" height="87" /></div>
+        <div id="item3" style="width: 100px; height: 87px; position: absolute; left: 140px; top: 275px; z-index: 2;"><img src="images/cherry.png" width="100" height="87" /></div>
         <!-- Second column-->
-        <div id="item4" style="width: 100px; height: 87px; position: absolute; left: 270px; top: 75px; z-index: 2;"><img src="images/Banana.png" width="100" height="87" /></div>
-        <div id="item5" style="width: 100px; height: 87px; position: absolute; left: 270px; top: 175px; z-index: 2;"><img src="images/Blackberry.png" width="100" height="87" /></div>
-        <div id="item6" style="width: 100px; height: 87px; position: absolute; left: 270px; top: 275px; z-index: 2;"><img src="images/Cherry.png" width="100" height="87" /></div>
+        <div id="item4" style="width: 100px; height: 87px; position: absolute; left: 270px; top: 75px; z-index: 2;"><img src="images/banana.png" width="100" height="87" /></div>
+        <div id="item5" style="width: 100px; height: 87px; position: absolute; left: 270px; top: 175px; z-index: 2;"><img src="images/blackberry.png" width="100" height="87" /></div>
+        <div id="item6" style="width: 100px; height: 87px; position: absolute; left: 270px; top: 275px; z-index: 2;"><img src="images/cherry.png" width="100" height="87" /></div>
         <!-- Third column-->
-        <div id="item7" style="width: 100px; height: 87px; position: absolute; left: 400px; top: 75px; z-index: 2;"><img src="images/Banana.png" width="100" height="87" /></div>
-        <div id="item8" style="width: 100px; height: 87px; position: absolute; left: 400px; top: 175px; z-index: 2;"><img src="images/Blackberry.png" width="100" height="87" /></div>
-        <div id="item9" style="width: 100px; height: 87px; position: absolute; left: 400px; top: 275px; z-index: 2;"><img src="images/Cherry.png" width="100" height="87" /></div>
+        <div id="item7" style="width: 100px; height: 87px; position: absolute; left: 400px; top: 75px; z-index: 2;"><img src="images/banana.png" width="100" height="87" /></div>
+        <div id="item8" style="width: 100px; height: 87px; position: absolute; left: 400px; top: 175px; z-index: 2;"><img src="images/blackberry.png" width="100" height="87" /></div>
+        <div id="item9" style="width: 100px; height: 87px; position: absolute; left: 400px; top: 275px; z-index: 2;"><img src="images/cherry.png" width="100" height="87" /></div>
         <img src="images/top.png" width="640" height="122" style="margin: 0px; padding: 0px; float: left; z-index: 3; position: relative;" />
         <img src="images/middle.png" width="640" height="192" style="margin: 0px; margin-top: 0px; padding: 0px; float: left; z-index: 1; position: relative;" />
         <img id="bottom" src="images/bottom.png" width="640" height="136" style="margin: 0px; margin-top: 0px; padding: 0px; float: left; z-index: 3; position: relative;" />
-        <p id="score" style="color: #FFF; z-index: 3; position: fixed; font-size: 26px; font-weight: bold; margin-left: 18%; margin-top: 27%;">
+        <p id="score" style="color: #000; z-index: 3; position: fixed; font-size: 26px; font-weight: bold; margin-left: 18%; margin-top: 27%;">
             SCORE: 000
         </p>
         <div style="text-align: center;" id="start">
-            <img src="images/Spin.png" width="100" height="50" style="cursor: pointer;" onclick="start();" />
+            <img src="images/spin.png" width="100" height="50" style="cursor: pointer;" onclick="start();" />
         </div>
-    </div>    
+    </div>
+           
 
     <script>
         
